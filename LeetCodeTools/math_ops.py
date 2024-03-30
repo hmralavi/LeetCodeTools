@@ -10,3 +10,15 @@ def sum_two_integers(a, b):
     int: Sum of the two integers.
     """
     return a + b
+
+
+def multiply_two_integers(a, b):
+    """
+    multiply two integers and return the result.
+
+    Args:
+        a (_type_): _description_
+        b (_type_): _description_
+    """
+
+    return a * b

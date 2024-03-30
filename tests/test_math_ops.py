@@ -1,5 +1,5 @@
 import unittest
-from LeetCodeTools import sum_two_integers
+from LeetCodeTools import sum_two_integers, multiply_two_integers
 
 
 class TestSumTwoIntegers(unittest.TestCase):
@@ -18,6 +18,15 @@ class TestSumTwoIntegers(unittest.TestCase):
 
     def test_large_numbers(self):
         self.assertEqual(sum_two_integers(1000000, 9999999), 10999999)
+
+
+class TestMultiplyTwoIntegers(unittest.TestCase):
+
+    def test_positive_numbers(self):
+        self.assertEqual(multiply_two_integers(1, 2), 2)
+
+    def test_zero_number(self):
+        self.assertEqual(multiply_two_integers(2, 0), 0)
 
 
 if __name__ == "__main__":
