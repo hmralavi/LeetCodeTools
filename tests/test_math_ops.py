@@ -14,7 +14,7 @@ class TestSumTwoIntegers(unittest.TestCase):
         self.assertEqual(sum_two_integers(-10, 5), -5)
 
     def test_zero(self):
-        self.assertEqual(sum_two_integers(0, 0), 1)
+        self.assertEqual(sum_two_integers(0, 0), 0)
 
     def test_large_numbers(self):
         self.assertEqual(sum_two_integers(1000000, 9999999), 10999999)
