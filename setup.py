@@ -6,8 +6,8 @@ with open("README.md", "r") as fh:
 
 setup(
     name="LeetCodeTools",
-    version="0.2",
-    packages=["LeetCodeTools"],
+    version="0.3",
+    packages=find_packages(),
     install_requires=[],
     setup_requires=[],
     test_requires=[],
